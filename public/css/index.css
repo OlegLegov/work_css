@@ -1,0 +1,145 @@
+/* Завдання 1.*/
+:root {
+  background: white;
+}
+/* Завдання 2.*/
+* {
+  color: black;
+}
+/* Завдання 3.*/
+h1 {
+  color: blue;
+}
+/* Завдання 4.*/
+.green {
+  color: green;
+}
+/* Завдання 5.*/
+#blue {
+  color: blue;
+}
+/* Завдання 6.*/
+.box div {
+  background: green;
+}
+.box p {
+  background: red;
+}
+/* Завдання 7.*/
+.brown {
+  background: brown;
+  color: white;
+}
+/* Завдання 8.*/
+ul > li {
+  background: red;
+}
+/* Завдання 9.*/
+.header-button + span {
+  background: red;
+}
+/* Завдання 10.*/
+.susid ~ p {
+  background: blue;
+}
+/* Завдання 11.*/
+.salo,
+#bread {
+  background: yellow;
+}
+/* Урок 2 */
+/* Завдання 1.*/
+li:first-child {
+  color: white;
+}
+/* Завдання 2.*/
+ul:first-child li:first-child {
+  color: yellow;
+}
+/* Завдання 3.*/
+ul + ul li:first-child {
+  background: yellow;
+}
+/* Завдання 4.*/
+li:last-child {
+  background: yellow;
+}
+/* Завдання 5.*/
+ul:last-child li:last-child {
+  color: white;
+}
+/* Завдання 6.*/
+div:only-child {
+  color: red;
+}
+/* Завдання 7.*/
+p:first-of-type {
+  background: red;
+}
+/* Завдання 8.*/
+p:last-of-type {
+  background: red;
+}
+/* Завдання 9.*/
+p:only-of-type {
+  background: yellow;
+}
+/* Урок 3 */
+/* Завдання 1.*/
+a[href] {
+  color: white;
+}
+/* Завдання 2.*/
+li[value] {
+  color: yellow;
+}
+/* Завдання 3.*/
+li[value='3'] {
+  background: red;
+}
+/* Завдання 4.*/
+button[class~='primary'] {
+  background: blue;
+}
+/* Завдання 5.*/
+button[class|='secondary'] {
+  background: red;
+}
+/* Завдання 6.*/
+li[class^='b'] {
+  color: green;
+  background: white;
+}
+/* Завдання 7.*/
+li[class*='on'] {
+  color: green;
+  background: white;
+}
+/* Завдання 8.*/
+span[class$='s'] {
+  color: blue;
+  background: white;
+}
+/* Завдання 9.*/
+h2 {
+  color: blue;
+}
+h2::first-letter {
+  color: red;
+}
+/* Завдання 10.*/
+p::first-line {
+  background: yellow;
+}
+/* Завдання 11.*/
+input::placeholder {
+  background: red;
+}
+/* Завдання 12.*/
+li::before {
+  content: '>';
+}
+/* Завдання 13.*/
+li::after {
+  content: '>';
+}
